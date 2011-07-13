@@ -1,10 +1,23 @@
 \documentclass[twoside]{articlek}
-\title{Electron density measurement via microwave interfeometer}
+\title{Electron density measurement via microwave interferometer}
 \author{Ond Grover}
 \begin{document}
 \maketitle{}
 \section{INTRODUCTION}
-Electron density is on of the  key parameters in the field of plasma physics. 
+Electron density is on of the key parameters in the field of plasma physics. Its measurement gives us important information about the behaviour and characteristics of plasma. For that purpose many different methods of density measurement exist.% yoda
+The most widespread are microwave diagnostics, mainly because of their non-invasive nature. 
 
-\section{}<++>
+The microwave interferometer which has been recently installed at the GOLEM Tokamak measures the line-averaged electron density and can be used to track the time evolution during a discharge.%time evolution\ldots term?
+This diagnostic had been previously implemented on the same device where it was in service as \uv{CASTOR} %reformulate 
+at the Czech Academy of Sciences and the whole waveguide system and other analytical hardware was made with the parameters of the site and work-flow in mind. This paper presents the current state of implementation at the GOLEM Tokamak.
+
+\section{Physical principles of operation} % find something better and CAPS
+
+A microwave passing through plasma undergoes a phase shift change, because the refractive index of plasma is bellow 1. %or is it not ? REFORMULATE
+This phase shift is directly proportional to the electron density as can be seen in the following equation:
+\begin{equation}
+    n_e=\frac{/varphi /lambda n_{crit}}{d}
+    \label{eq:ne}
+\end{equation}
+where $\lambda$ is the wavelength of the microwave, $d$ is the distance that the microwave beam travels through plasma and $n_{crit}$ is the critical electron density at which the microwave beam cannot pass through plasma and is reflected.
 \end{document}
