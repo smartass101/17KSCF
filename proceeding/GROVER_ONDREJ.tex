@@ -42,10 +42,20 @@ Electron density is on of the key parameters in the field of plasma physics. Its
 The most widespread are microwave diagnostics, mainly because of their non-invasive nature. 
 
 The microwave interferometer which has been recently installed at the GOLEM Tokamak measures the line-averaged electron density and can be used to track the time evolution during a discharge.%time evolution\ldots term?
-This diagnostic had been previously implemented on the same device where it was in service as CASTOR %reformulate 
-at the Czech Academy of Sciences and the whole waveguide system and other analytical hardware was made with the parameters of the site and work-flow in mind. This paper presents the current state of implementation at the GOLEM Tokamak.
+This diagnostic had been previously implemented on the same device when it was in service as the CASTOR Tokamak %reformulate 
+at the Czech Academy of Sciences and the whole waveguide system and other analytical hardware were made with the specific parameters of the site and work-flow in mind. This paper presents the current state of implementation at the GOLEM Tokamak.
 
 \section{Physical principles of operation} % find something better and CAPS
+
+In ionized plasma oscillations of electrons around ions arise when the homogeneity of the electrostatic charge is disrupted. The angular frequency of such plasma oscillations $\omega_p$ is dependant on the electron density $n_e$. 
+
+As shown in \cite{mateju}, an electromagnetic wave propagating through plasma perpendicularly to the magnetic and electric field \footnote{a so called ``ordinary wave'', the geometry of a conventional Tokamak allows for such fields to exist} has a dispersion relation
+\begin{equation}
+    \omega = \omega_p +c^2 k^2
+    \label{eq:dispersion}
+\end{equation}
+where $\omega$ is the angular frequency of the propagating EM wave, $k$ is its wavenumber and $c$ is the speed of light in vacuum.
+
 
 A microwave passing through plasma undergoes a phase shift change, because the refractive index of plasma is bellow 1. %or is it not ? REFORMULATE
 This phase shift is directly proportional to the electron density as can be seen in the following equation:
@@ -54,4 +64,17 @@ This phase shift is directly proportional to the electron density as can be seen
     \label{eq:ne}
 \end{equation}
 where $\lambda$ is the wavelength of the microwave, $d$ is the distance that the microwave beam travels through plasma and $n_{crit}$ is the critical electron density at which the microwave beam cannot pass through plasma and is reflected.
+%------------------------------------
+\begin{thebibliography}{99}
+
+%\newcommand{\noopsort}[1]{} \newcommand{\printfirst}[2]{#1}
+%      \newcommand{\singleletter}[1]{#1} \newcommand{\switchargs}[2]{#2#1}
+\leftskip=-5pt \vspace{-0.3truecm}
+\bibitem{mateju} MATEJU, M.
+\bibitem{RA_82} R.~Autor, Journal a. {\bf 2}, 2345 (2001).
+\bibitem{SA_77} S.~Autor, Journal b. {\bf 32}, 4567 (2002).
+\bibitem{4} B. Author: Book name (Publisher, town - 2003).
+\end{thebibliography}
+
+
 \end{document}
