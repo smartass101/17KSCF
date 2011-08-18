@@ -262,7 +262,7 @@ $\Delta \varphi$ is extracted from the \textcolor{cyan}{interference} of the \te
 
 \headerbox{Waveguide System}{name=waveguides,column=1,span=2,below=interf} 
 {
- The diagnostic hardware was designed specifically for the the waveguide system as it was built for the Czech Academy of Sciences during the ``CASTOR era'' of this Tokamak. Therefore, the new waveguide system for the GOLEM Tokamak had to have approximately the same length but fit into the same room where the Tokamak is located.
+ The diagnostic hardware was designed specifically for the waveguide system as it was built for the Czech Academy of Sciences during the ``CASTOR era'' of this Tokamak. Therefore, the new waveguide system for the GOLEM Tokamak had to have approximately the same length and also fit into the same room where the Tokamak is located.
  %few pics 
 The total length of the new waveguide system is nearly 10 m, which was achieved by constructing a ``trombone-like'' turn as seen in fig %TODO
 }
@@ -271,8 +271,14 @@ The total length of the new waveguide system is nearly 10 m, which was achieved 
  {
  %nromal black boxes, and sine wave signal analysis
  The amplified sine-wave signal can be either analyzed in the analogue analysis circuit or digitized with the oscilloscope and then analyzed on the computer.
- \section{Analogue Analysis Circuit}
+
+\textbf{Analogue Analysis Circuit}
+ 
  A set of logical gates compares the trigger signal synchronised with the 500 kHz saw-tooth voltage generator to the next root of the sine signal and deduces the current phase shift. This happens for every eighth trigger signal, so the time resolution of this method is only 62,5 kHz.
+
+ \textbf{Oscilloscope Digitization}
+
+The amplified signal is digitized with a sampling frequency of 25 MHz and then processed on the computer. The data sample is then fitted to a function $f(t)=A \cdot \sin (2\pi\cdot 5e5 t + \varphi)$ and $\varphi$ is extracted and normalized. Only ranges of point close to $0$ are processed, because there the signal is assumed to be the least influenced by amplitude dampening.
  }
 
  \headerbox{Signal Disturbances}{name=disturb,column=0,row=2,span=2,below=data}
