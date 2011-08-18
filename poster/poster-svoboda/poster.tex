@@ -11,8 +11,7 @@
 \usepackage{relsize}
 \usepackage{multirow}
 \usepackage{bm}
-
-\usepackage{graphicx}
+\usepackage{wrapfig}
 \usepackage{multicol}
 
 \usepackage{pgfbaselayers}
@@ -118,7 +117,7 @@
   % Poster Options
   {
   % Show grid to help with alignment
-  grid=yes,
+  grid=no,
   % Column spacing
   colspacing=1em,
  % ============Ondra G pokus o H aplha ==============
@@ -234,15 +233,19 @@ The goals of this project were to adapt the old CASTOR implementation of the sta
  \headerbox{Microwave Interferometry}{name=interf,column=1,span=2}
  {
  %info+schema
- The refractive index of \textcolor{purple}{plasma} $n$ is dependent on the electron density $n_e$. Therefore, a microwave beam with $f \sim 75$ GHz \textcolor{green}{probing the plasma} undergoes a phase shift $\Delta \varphi$ which is directly proportional to $n_e$
+ \begin{multicols}{2} The refractive index of \textcolor{purple}{plasma} $n$ is dependent on the electron density $n_e$. Therefore, a microwave beam with $f \sim 75$ GHz \textcolor{green}{probing the plasma} undergoes a phase shift $\Delta \varphi$ which is directly proportional to $n_e$
 %vzorec
+\includegraphics[width=.5\textwidth]{schema.pdf}
+$\Delta \varphi$ is extracted from the \textcolor{cyan}{interference} of the \textcolor{orange}{reference beam} and the \textcolor{green}{probing beam} from which the reference beam was split off, thus the \textcolor{orange}{ref. beam} has the same phase as the \textcolor{green}{probing beam} had before entering the \textcolor{purple}{plasma}.
+%schema
+
+%needs smth about n_crit
 \begin{itemize}
     \item $d$ \dots distance the beam travels through plasma, assumed to be the diameter of the limiter ring inside the chamber
     \item $\lambda_0$ \dots wavelength of the microwave in vacuum
     \item $n_{crit}$ \dots critical density 
 \end{itemize}
-$\Delta \varphi$ is extracted from the \textcolor{cyan}{interference} of the \textcolor{orange}{reference beam} and the \textcolor{green}{probing beam}, from which the reference beam was split off, thus the \textcolor{orange}{ref. beam} has the same phase as the \textcolor{green}{probing beam} had before entering the \textcolor{purple}{plasma}.
-%schema
+\end{multicols}
  }
          \headerbox{Frequency Modulation}{name=modulation,column=0,below=intro}
  {
