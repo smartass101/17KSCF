@@ -262,7 +262,7 @@ $\Delta \varphi$ is extracted from the \textcolor{cyan}{interference} of the \te
 
 \headerbox{Waveguide System}{name=waveguides,column=1,span=2,below=interf} 
 {
- All the diagnostic hardware was designed specifically for the length of the waveguide system as it was built for the Czech Academy of Sciences during the ``CASTOR era'' of this Tokamak. Therefore, the new waveguide system for the GOLEM Tokamak had to have approximately the same length of about 10 m and yet fit into the same room where the Tokamak is located.
+ The diagnostic hardware was designed specifically for the the waveguide system as it was built for the Czech Academy of Sciences during the ``CASTOR era'' of this Tokamak. Therefore, the new waveguide system for the GOLEM Tokamak had to have approximately the same length but fit into the same room where the Tokamak is located.
  %few pics 
 The total length of the new waveguide system is nearly 10 m, which was achieved by constructing a ``trombone-like'' turn as seen in fig %TODO
 }
@@ -270,6 +270,9 @@ The total length of the new waveguide system is nearly 10 m, which was achieved 
  \headerbox{Data Analysis}{name=data,column=0,span=2,below=modulation}
  {
  %nromal black boxes, and sine wave signal analysis
+ The amplified sine-wave signal can be either analyzed in the analogue analysis circuit or digitized with the oscilloscope and then analyzed on the computer.
+ \section{Analogue Analysis Circuit}
+ A set of logical gates compares the trigger signal synchronised with the 500 kHz saw-tooth voltage generator to the next root of the sine signal and deduces the current phase shift. This happens for every eighth trigger signal, so the time resolution of this method is only 62,5 kHz.
  }
 
  \headerbox{Signal Disturbances}{name=disturb,column=0,row=2,span=2,below=data}
