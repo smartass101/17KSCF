@@ -118,7 +118,7 @@
   % Poster Options
   {
   % Show grid to help with alignment
-  grid=no,
+  grid=yes,
   % Column spacing
   colspacing=1em,
  % ============Ondra G pokus o H aplha ==============
@@ -231,39 +231,52 @@ The goals of this project were to implement the standard line-averaged electron 
 \end{itemize}
  }
 
- \headerbox{Microwave Interferometry}{name=interf,column=0,row=1,bellow=intro }
+ \headerbox{Microwave Interferometry}{name=interf,column=1,span=2}
  {
  %info+schema
 The refractive index of plasma $n$ is dependent on the electron density $n_e$. Therefore, a microwave beam with $f \sim 75$ GHz probing the plasma undergoes a phase shift $\Delta \varphi$ which is directly proportional to $n_e$
 %vzorec
 \begin{itemize}
     \item $d$ \dots distance the beam travels through plasma, assumed to be the diameter of the limiter ring inside the chamber
-    \item $\lambda_0$ \dots wavelength of the microwave in vakuum
+    \item $\lambda_0$ \dots wavelength of the microwave in vacuum
     \item $n_{crit}$ \dots critical density 
-\end{itemize}<++>
+\end{itemize}
+$\Delta \varphi$ is extracted from the interference of the reference and the probing beam, from which the reference beam was split off, thus the ref. beam has the same phase as the probing beam had before entering the plasma.
+%schema
  }
- \headerbox{Frequency Modulation}{name=modulation}
+         \headerbox{Frequency Modulation}{name=modulation,column=0,below=intro}
  {
  %why, how
+ 
+ is locked on 500 kHz with a width of the band
  }
 
 
 
-\headerbox{Waveguide System}{name=waveguides,column=0,row=1} 
+\headerbox{Waveguide System}{name=waveguides,column=1,span=2,below=interf} 
 {
- All the diagnostic hardware was designed specifically for the length of the waveguide system as it was built for the Czech Academy of Sciences during the ``CASTOR era'' of this Tokamak. Therefore, the new waveguide system for the GOLEM Tokamak had to have approximately the same length of about 10 m and yet fit into the same room where the tokamak is located.
- %few pics
+ All the diagnostic hardware was designed specifically for the length of the waveguide system as it was built for the Czech Academy of Sciences during the ``CASTOR era'' of this Tokamak. Therefore, the new waveguide system for the GOLEM Tokamak had to have approximately the same length of about 10 m and yet fit into the same room where the Tokamak is located.
+ %few pics 
 The total length of the new waveguide system is nearly 10 m, which was achieved by constructing a ``trombone-like'' turn as seen in fig %TODO
 }
 
-\headerbox{Future Plans}{name=plans}
+ \headerbox{Data Analysis}{name=data,column=0,span=2,below=modulation}
+ {
+ %nromal black boxes, and sine wave signal analysis
+ }
+
+ \headerbox{Signal Disturbances}{name=disturb,column=0,row=2,span=2,below=data}
+ {
+ %what why
+ }<++>
+\headerbox{Future Plans}{name=plans,column=2,row=3,below=disturb}
 {
 \begin{itemize}
     \item Use a different and well grounded saw-tooth voltage and trigger generator to overcome possible coupling with the chamber.
     \item Study the influence of plasma stability once the Mirnov coils feedback-based plasma position stabilization system is operational.
 \end{itemize}
 }
-\headerbox{Conclusion}{name=conclusion,column=2,row=1}
+\headerbox{Conclusion}{name=conclusion,column=2,row=4,below=plans}
 {
   \bi
     \im The present status of the GOLEM tokamak from the engineering as well as plasma performance point of view is presented.
