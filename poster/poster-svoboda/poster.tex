@@ -238,12 +238,15 @@ The goals of this project were to adapt the old CASTOR implementation of the sta
 \includegraphics[width=.5\textwidth]{schema.pdf}
 $\Delta \varphi$ is extracted from the \textcolor{cyan}{interference} of the \textcolor{orange}{reference beam} and the \textcolor{green}{probing beam} from which the reference beam was split off, thus the \textcolor{orange}{ref. beam} has the same phase as the \textcolor{green}{probing beam} had before entering the \textcolor{purple}{plasma}.
 %schema
+\begin{equation}
+    \overline{n_e}=\frac{ n_{crit}\lambda_0 }{d \pi}\Delta \varphi
+    \label{eq:ne}
+\end{equation}
+$\overline{n_e}$ is the electron density line-averaged over the distance $d$ that the MW with a wavelength in vacuum $\lambda_0$ travels through plasma
+
 
 %needs smth about n_crit
-\begin{itemize}
-    \item $d$ \dots distance the beam travels through plasma, assumed to be the diameter of the limiter ring inside the chamber
-    \item $\lambda_0$ \dots wavelength of the microwave in vacuum
-    \item $n_{crit}$ \dots critical density 
+$n_{crit}$ is the critical density above which the MW cannot propagate through plasma. $f \sim 75 \text{GHz} \dots n_{crit} \sim 6.9 \dot 10^{19} \text{cm}^{-3}$
 \end{itemize}
 \end{multicols}
  }
