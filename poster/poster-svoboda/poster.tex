@@ -4,6 +4,7 @@
 
 \tracingstats=2
 
+\usepackage[utf8x]{inputenc}
 \usepackage{calc}
 \usepackage{graphicx}
 \usepackage{amsmath}
@@ -279,7 +280,7 @@ The total length of the new waveguide system is nearly 10 m, which was achieved 
 
  \textbf{Oscilloscope Digitization}
 
-The amplified signal is digitized with a sampling frequency of 25 MHz and then processed on the computer. The data sample is then fitted to a function $f(t)=A \cdot \sin (2\pi\cdot 5e5 t + \varphi)$ and $\varphi$ is extracted and normalized. Only ranges of points close to $0$ are processed, because there the signal is assumed to be the least influenced by amplitude dampening.
+The amplified signal is digitized with a sampling frequency of 25 MHz and then processed on a computer. The data sample is then fitted to a function $f(t)=A \cdot \sin (2\pi\cdot 5e5 t + \varphi)$ and $\varphi$ is extracted and normalized. Only ranges of points close to $0$ are processed, because there the signal is assumed to be the least influenced by amplitude dampening.
  }
 
  \headerbox{Signal Disturbances}{name=disturb,column=0,row=2,span=2,below=data}
@@ -309,13 +310,15 @@ The amplified signal is digitized with a sampling frequency of 25 MHz and then p
 
 \headerbox{References}{name=References,column=2,row=1, span=1,below=plans}
 {
-  \nocite{FusenEngDes11}
-  \nocite{Zara06}
-    \smaller
-    \vspace{-0.4em}
-    \bibliographystyle{unsrt}
-    \renewcommand{\section}[2]{\vskip 0.05em}
-    \bibliography{biblio}
+ MATĚJŮ, Michael. {\em Měření hustoty plazmatu metodami mikrovlnné interferometre.} FJFI, 2008. 44 s. Bakalářská práce. ČVUT, FJFI, Katedra fyziky.
+ 
+ % \nocite{FusenEngDes11}
+ % \nocite{Zara06}
+ %   \smaller
+ %   \vspace{-0.4em}
+ %   \bibliographystyle{unsrt}
+ %   \renewcommand{\section}[2]{\vskip 0.05em}
+ %   \bibliography{biblio}
 }
 
 \end{poster}
