@@ -279,19 +279,23 @@ The total length is close to 10 m, which was achieved by constructing a ``trombo
 \end{multicols}
 }
 
- \headerbox{Data Analysis}{name=data,column=0,span=2,below=modulation}
- {
+ %\headerbox{Data Analysis}{name=data,column=0,span=2,below=modulation}
+ %{
+
  %nromal black boxes, and sine wave signal analysis
-\textbf{Analogue Analysis Circuit}
- 
- A set of logical gates compares the trigger signal synchronised with the 500 kHz saw-tooth signal to the next root of the sine signal and deduces the current phase shift. This happens for every eighth trigger signal, so the time resolution of this method is only 62,5 kHz.
-
- \textbf{Oscilloscope Digitization}
-
+ \headerbox{Analogue Analysis Circuit}{name=analog,column=0,below=modulation}
+ {
+ \begin{multicols}{2}
+ A set of logical gates compares the 500 kHz synchronised trigger signal with the next root of the sine signal and deduces the current phase shift. This happens for every eighth trigger signal, so the time resolution is only 62,5 kHz.\\
+ \includegraphics[width=.5\textwidth]{images/analog.pdf}
+ \end{multicols}
+ }
+ \headerbox{Oscilloscope Digitization}{name=oscilo,column=1,below=modulation}
+ {
 The amplified signal is digitized with a sampling frequency of 25 MHz and then processed on a computer. The data sample is then fitted to a function $f(t)=A \cdot \sin (2\pi\cdot 5e5 t + \varphi)$ and $\varphi$ is extracted and normalized. Only ranges of points close to $0$ are processed, because there the signal is assumed to be the least influenced by amplitude dampening.
  }
 
- \headerbox{Signal Disturbances}{name=disturb,column=0,row=2,span=2,below=data}
+ \headerbox{Signal Disturbances}{name=disturb,column=0,row=2,span=2,below=analog}
  {
  %what why
  }<++>
@@ -299,8 +303,8 @@ The amplified signal is digitized with a sampling frequency of 25 MHz and then p
 {
 \begin{itemize}
         \compresslist
-    \item Use a different and well grounded saw-tooth voltage and trigger generator to overcome possible coupling with the chamber.
-    \item Study the influence of plasma stability once the Mirnov coils feedback-based plasma position stabilization system is operational.
+    \item  Overcome possible coupling with the chamber by using a new and well grounded saw-tooth voltage and trigger generator
+    \item Study the influence of plasma stability with the Mirnov coils based plasma position stabilization system.
 \end{itemize}
 }
 %\headerbox{Conclusion}{name=conclusion,column=2,row=4,below=plans}
