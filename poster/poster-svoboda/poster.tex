@@ -292,7 +292,9 @@ The total length is close to 10 m, which was achieved by constructing a ``trombo
  }
  \headerbox{Oscilloscope Digitization}{name=oscilo,column=1,below=modulation}
  {
-The amplified signal is digitized with a sampling frequency of 25 MHz and then processed on a computer. The data sample is then fitted to a function $f(t)=A \cdot \sin (2\pi\cdot 5e5 t + \varphi)$ and $\varphi$ is extracted and normalized. Only ranges of points close to $0$ are processed, because there the signal is assumed to be the least influenced by amplitude dampening.
+The amplified signal is digitized with a sampling frequency of 25 MHz and then processed on a computer. The data sample is then fitted to a function $f(t)=A \cdot \sin (2\pi\cdot 5e5 t + \varphi)$ and $\varphi$ is extracted and normalized. 
+
+Only ranges of points close to $0$ are processed, because there the signal is assumed to be the least influenced by amplitude dampening.
  }
 
 \headerbox{Future Plans}{name=plans,column=2,row=3,below=modulation}
@@ -317,7 +319,7 @@ The amplified signal is digitized with a sampling frequency of 25 MHz and then p
 %  \vspace{0.5em}
 %}
 
-\headerbox{References}{name=ref,column=2,row=1, span=1,below=plans}
+\headerbox{References}{name=ref,column=1,row=1, span=2,below=oscilo}
 {
  MATĚJŮ, Michael. {\em Měření hustoty plazmatu metodami mikrovlnné interferometre.} FJFI, 2008. 
  %44 s. Bakalářská práce. ČVUT, FJFI, Katedra fyziky.
@@ -334,6 +336,25 @@ The amplified signal is digitized with a sampling frequency of 25 MHz and then p
  \headerbox{Signal Disturbances}{name=disturb,column=0,row=2,span=3,below=ref}
  {
  %what why
- }<++>
+ \begin{multicols}{2}
+     During many discharges the frequency of the amplified signal suddenly increases and then returns back to normal. Both methods of analysis interpret this as sudden jumps in density, sometimes even to negative values. 
+
+These higher frequency signals also are not fully amplified  and thus may not be correctly analysed.
+     
+A possible explanation is that there is a coupling of the chamber and the diagnostic hardware through the waveguide system which results in a change of $f_{mod}$ and/or $\Delta f$.
+     \begin{itemize}
+             \compresslist
+         \item a change in $f_{mod}$ means the frequency of the amplified signal also changes. At the same the frequency of the trigger signal would change
+         \item a change in $\Delta f$ would result only in a change of the frequency of the amplified signal
+     \end{itemize}
+A clear connection to the behaviour of plasma has been observed 
+\begin{itemize} 
+        \compresslist
+    \item Increasing the stability of the discharge by increasing the temperature of the chamber has proven to reduce the number of disturbances
+    \item These disturbances occur usually after the initial exponential rise in density at the beginning of the discharge
+     \end{itemize}
+        \includegraphics[width=.45\textwidth]{data.pdf}
+ \end{multicols}
+ }
 \end{poster}
 \end{document}
