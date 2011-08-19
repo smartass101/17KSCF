@@ -202,7 +202,7 @@
 }{
     \makebox[8em][r]{%
       \begin{minipage}{8em}
-	\includegraphics[width=7em]{lev}
+	\includegraphics[width=7em]{images/fjfi.png}
       %  \includegraphics[width=7em]{logoipp}
       \end{minipage}}
 }
@@ -269,10 +269,14 @@ $\Delta \varphi$ is extracted from the \textcolor{cyan}{interference} of the \te
 
 \headerbox{Waveguide System}{name=waveguides,column=1,span=2,below=interf} 
 {
+\begin{multicols}{2}
  %The diagnostic hardware was designed specifically for the waveguide system as it was built for the Czech Academy of Sciences during the ``CASTOR era'' of this Tokamak. 
  The new waveguide system had to have approximately the same length as the one built for CASTOR, because all the analogue hardware had been designed specifically for it. At the same time it had to fit into the modest room where the Tokamak is located.
  %few pics 
-The total length close to 10 m, which was achieved by constructing a ``trombone-like'' turn as seen in fig %TODO
+
+The total length is close to 10 m, which was achieved by constructing a ``trombone-like'' turn as seen in the Figure. \\
+ \includegraphics[width=.48\textwidth]{images/vlnovody.jpg}
+\end{multicols}
 }
 
  \headerbox{Data Analysis}{name=data,column=0,span=2,below=modulation}
@@ -280,7 +284,7 @@ The total length close to 10 m, which was achieved by constructing a ``trombone-
  %nromal black boxes, and sine wave signal analysis
 \textbf{Analogue Analysis Circuit}
  
- A set of logical gates compares the trigger signal synchronised with the 500 kHz saw-tooth voltage generator to the next root of the sine signal and deduces the current phase shift. This happens for every eighth trigger signal, so the time resolution of this method is only 62,5 kHz.
+ A set of logical gates compares the trigger signal synchronised with the 500 kHz saw-tooth signal to the next root of the sine signal and deduces the current phase shift. This happens for every eighth trigger signal, so the time resolution of this method is only 62,5 kHz.
 
  \textbf{Oscilloscope Digitization}
 
