@@ -286,13 +286,14 @@ The total length is close to 10 m, which was achieved by constructing a ``trombo
  \headerbox{Analogue Analysis Circuit}{name=analog,column=0,below=modulation}
  {
  \begin{multicols}{2}
- A set of logical gates compares the 500 kHz synchronised trigger signal with the next root of the sine signal and deduces the current phase shift. This happens for every eighth trigger signal, so the time resolution is only 62,5 kHz.\\
+ A set of logical gates compares the 500 kHz synchronised trigger signal with the next root of the sine signal and deduces the current phase shift and then processed with (1). 
+ This happens for every eighth trigger signal, so the time resolution is only 62,5 kHz.\\
  \includegraphics[width=.5\textwidth]{images/analog.pdf}
  \end{multicols}
  }
  \headerbox{Oscilloscope Digitization}{name=oscilo,column=1,below=modulation}
  {
-The amplified signal is digitized with a sampling frequency of 25 MHz and then processed on a computer. The data sample is then fitted to a function $f(t)=A \cdot \sin (2\pi\cdot 5e5 t + \varphi)$ and $\varphi$ is extracted and normalized. 
+The amplified signal is digitized with a sampling frequency of 25 MHz and then processed on a computer. The data sample is then fitted to a function $f(t)=A \cdot \sin (2\pi\cdot 5e5 t + \varphi)$ and $\varphi$ is extracted and processed with (1). 
 
 Only ranges of points close to $0$ are processed, because there the signal is assumed to be the least influenced by amplitude dampening.
  }
@@ -345,7 +346,7 @@ A possible explanation is that there is a coupling of the chamber and the diagno
      \begin{itemize}
              \compresslist
          \item a change in $f_{mod}$ means the frequency of the amplified signal also changes. At the same the frequency of the trigger signal would change
-         \item a change in $\Delta f$ would result only in a change of the frequency of the amplified signal
+         \item a change in $\Delta f$ would disrupt (2), hence only the frequency of the amplified signal would change
      \end{itemize}
 A clear connection to the behaviour of plasma has been observed 
 \begin{itemize} 
