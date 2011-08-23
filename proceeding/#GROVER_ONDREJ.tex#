@@ -1,0 +1,84 @@
+\documentclass[twoside]{articlek}
+\newcommand{\mins}{&\!\!\!\!}
+\renewcommand{\refname}{REFERENCES}
+\textwidth=17.3truecm \hoffset=0.55truecm \textheight=26.4truecm
+\topmargin=-2.2truecm \columnsep=0.7truecm \oddsidemargin =
+-.4truecm \evensidemargin = -1.7truecm \pagenumbering{arabic}
+\pagestyle{headings} \setcounter{page}{0}
+\newlength{\sectionName}
+\newlength{\sectionNameP}
+\unitlength=1cm
+\frenchspacing
+%\parindent=0cm
+\def\be{\begin{equation}}
+\def\ee{\end{equation}}
+% ------------------------------------------------------------------------
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+            T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\usepackage{graphicx}
+% ------------------------------------------------------------------------
+\begin{document}
+\sloppy
+\twocolumn[{
+%\vspace*{1.7cm}   % for the title  page only
+%\begin{center}
+{\large\bf Density measurement via microwave interferometry at the GOLEM Tokamak}\\
+
+{\small %A. Author, e-mail, B. Author, e-mail, address and C.
+O. Grover, ondrej.grover@gmail.com, FJFI CVUT}\\ %TODO what address and other authors included ?
+
+%\end{center}
+%\vspace*{1ex}
+
+%{\bf ABSTRACT.} These are the guidelines for preparation of
+%manuscripts of the contributions to the proceedings of the 17th
+%Conference of Czech and Slovak Physicists, held on September 5 -
+%8, 2011.\\
+}]
+\section{INTRODUCTION}
+Electron density is on of the key parameters in the field of plasma physics. Its measurement gives us important information about the behaviour and characteristics of plasma. For that purpose many different methods of density measurement exist.% yoda
+The most widespread are microwave diagnostics, mainly because of their non-invasive nature. 
+
+The microwave interferometer which has been recently installed at the GOLEM Tokamak measures the line-averaged electron density and can be used to track the time evolution during a discharge.%time evolution\ldots term?
+This diagnostic had been previously implemented on the same device when it was in service as the CASTOR Tokamak %reformulate 
+at the Czech Academy of Sciences and the whole waveguide system and other analytical hardware were made with the specific parameters of the site and work-flow in mind. This paper presents the current state of implementation at the GOLEM Tokamak.
+?
+\section{FUNDAMENTAL PRINCIPLES OF OPERATION} % find something better and CAPS
+
+In ionized plasma oscillations of electrons around ions arise when the homogeneity of the electrostatic charge is disrupted. The angular frequency of such plasma oscillations $\omega_p$ is dependant on the electron density $n_e$. 
+
+As shown in \cite{mateju}, an electromagnetic wave propagating through plasma perpendicularly to the magnetic and electric field\footnote{a so called ``ordinary wave'', the geometry of a conventional Tokamak allows for such fields to exist} has a dispersion relation
+\begin{equation}
+    \omega = \omega_p +c^2 k^2
+    \label{eq:dispersion}
+\end{equation}
+where $\omega$ is the angular frequency of the propagating EM wave, $k$ is its wavenumber and $c$ is the speed of light in vacuum.
+
+Therefore an EM wave with a given angular frequency $\omega>\omega_p$ has a real wavenumber $k$ and it propagates with a phase velocity $v_p>c$. Hence the refractive index $n$ is less than 1 and is dependent on $\omega_p$, thus also dependent on the electron density $n_e$. 
+
+As $\omega$ approaches $\omega_p$, the refractive index $n$ approaches 0 so the EM wave cannot propagate and is reflected. Thus for probing beam with a given $\omega$ there is a so called critical density $n_{crit}$ above which the measurement cannot take place.
+
+
+A microwave beam probing the plasma undergoes a phase shift $\Delta \varphi$ due to the different $n$.  %or is it not ? REFORMULATE
+As $n_e$ and therefore also $n$ differs throughout the plasma, the total phase shift is directly proportional to the line integral of $n_e$ over the distance $d$ traveled through plasma as has been derived in \cite{mateju}
+\begin{equation}
+    \overline{n_e}=\frac{ n_{crit}\lambda_0 }{d \pi}\Delta \varphi
+    \label{eq:ne}
+\end{equation}
+where $\lambda_0$ is the wavelength of the microwave in vacuum and $d$ is the distance that the microwave beam travels through plasma. 
+%------------------------------------
+\begin{thebibliography}{99}
+
+%\newcommand{\noopsort}[1]{} \newcommand{\printfirst}[2]{#1}
+%      \newcommand{\singleletter}[1]{#1} \newcommand{\switchargs}[2]{#2#1}
+\leftskip=-5pt \vspace{-0.3truecm}
+\bibitem{mateju} MATEJU, M.
+\bibitem{RA_82} R.~Autor, Journal a. {\bf 2}, 2345 (2001).
+\bibitem{SA_77} S.~Autor, Journal b. {\bf 32}, 4567 (2002).
+\bibitem{4} B. Author: Book name (Publisher, town - 2003).
+\end{thebibliography}
+
+
+\end{document}

@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by diasvg.py -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="37.655cm"
+   height="25.460cm"
+   viewBox="0.655 0.310 38.310 25.770"
+   id="svg3262"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="schema.pdf">
+  <metadata
+     id="metadata3480">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3478" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1364"
+     inkscape:window-height="748"
+     id="namedview3476"
+     showgrid="false"
+     inkscape:zoom="0.6318408"
+     inkscape:cx="349.23089"
+     inkscape:cy="469.35899"
+     inkscape:window-x="0"
+     inkscape:window-y="18"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3262" />
+  <ellipse
+     cx="30.675"
+     cy="3.545"
+     rx="2.175"
+     ry="2.175"
+     fill="#F03986"
+     stroke="none"
+     id="ellipse3264" />
+  <ellipse
+     cx="30.675"
+     cy="3.545"
+     rx="2.175"
+     ry="2.175"
+     fill="none"
+     stroke="#FF0000"
+     stroke-width="0.100"
+     id="ellipse3266" />
+  <ellipse
+     cx="30.675"
+     cy="3.545"
+     rx="2.175"
+     ry="2.175"
+     fill="none"
+     stroke="#FF0000"
+     stroke-width="0.100"
+     id="ellipse3268" />
+  <line
+     x1="22.150"
+     y1="11.820"
+     x2="21.280"
+     y2="11.820"
+     stroke="#000000"
+     stroke-width="0.100"
+     id="line3270" />
+  <line
+     x1="21.280"
+     y1="12.420"
+     x2="21.280"
+     y2="11.220"
+     stroke="#000000"
+     stroke-width="0.300"
+     id="line3272" />
+  <polygon
+     points="20.52,11.22 21.28,11.82 20.52,12.42 "
+     id="polygon3274"
+     style="fill:#0084ff;fill-opacity:1;stroke:none"
+     transform="matrix(0.9252572,0,0,1.0473371,1.5337226,-0.58792699)" />
+  <polygon
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.100"
+     points="21.280,11.820 20.520,12.420 20.520,11.220 "
+     id="polygon3276" />
+  <line
+     x1="20.520"
+     y1="11.820"
+     x2="19.650"
+     y2="11.820"
+     stroke="#000000"
+     stroke-width="0.100"
+     id="line3278" />
+  <line
+     x1="27.241"
+     y1="16.186"
+     x2="26.615"
+     y2="16.186"
+     stroke="#000000"
+     stroke-width="0.100"
+     id="line3280" />
+  <line
+     x1="27.241"
+     y1="17.438"
+     x2="26.615"
+     y2="17.438"
+     stroke="#000000"
+     stroke-width="0.100"
+     id="line3282" />
+  <polygon
+     fill="#FFFFFF"
+     stroke="none"
+     stroke-width="0.100"
+     points="26.615,15.561 26.615,18.063 24.426,16.812 "
+     id="polygon3284" />
+  <polygon
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.100"
+     points="26.615,15.561 26.615,18.063 24.426,16.812 "
+     id="polygon3286" />
+  <line
+     x1="26.490"
+     y1="16.186"
+     x2="25.989"
+     y2="16.186"
+     stroke="#000000"
+     stroke-width="0.100"
+     id="line3288" />
+  <line
+     x1="26.240"
+     y1="15.936"
+     x2="26.240"
+     y2="16.437"
+     stroke="#000000"
+     stroke-width="0.100"
+     id="line3290" />
+  <line
+     x1="26.490"
+     y1="17.438"
+     x2="25.989"
+     y2="17.438"
+     stroke="#000000"
+     stroke-width="0.100"
+     id="line3292" />
+  <line
+     x1="24.426"
+     y1="16.812"
+     x2="23.800"
+     y2="16.812"
+     stroke="#000000"
+     stroke-width="0.100"
+     id="line3294" />
+  <line
+     x1="4.806"
+     y1="3.727"
+     x2="27.851"
+     y2="3.565"
+     stroke="#00FF00"
+     stroke-width="0.200"
+     id="line3296" />
+  <polygon
+     fill="#00FF00"
+     stroke="none"
+     stroke-width="0.200"
+     points="28.226,3.562 27.728,3.816 27.851,3.565 27.725,3.316 "
+     id="polygon3298" />
+  <polygon
+     fill="none"
+     stroke="#00FF00"
+     stroke-width="0.200"
+     points="28.226,3.562 27.728,3.816 27.851,3.565 27.725,3.316 "
+     id="polygon3300" />
+  <polyline
+     fill="none"
+     stroke="#FFA500"
+     stroke-width="0.200"
+     points="5.431,3.905 5.431,3.920 14.050,3.920 14.050,11.820 19.051,11.820 "
+     id="polyline3302" />
+  <polygon
+     fill="#FFA500"
+     stroke="none"
+     stroke-width="0.200"
+     points="19.426,11.820 18.926,12.070 19.051,11.820 18.926,11.570 "
+     id="polygon3304" />
+  <polygon
+     fill="none"
+     stroke="#FFA500"
+     stroke-width="0.200"
+     points="19.426,11.820 18.926,12.070 19.051,11.820 18.926,11.570 "
+     id="polygon3306" />
+  <polyline
+     fill="none"
+     stroke="#00FF00"
+     stroke-width="0.200"
+     points="32.850,3.545 35.500,3.545 35.500,9.520 19.650,9.520 19.650,11.221 "
+     id="polyline3308" />
+  <polygon
+     fill="#00FF00"
+     stroke="none"
+     stroke-width="0.200"
+     points="19.650,11.596 19.400,11.096 19.650,11.221 19.900,11.096 "
+     id="polygon3310" />
+  <polygon
+     fill="none"
+     stroke="#00FF00"
+     stroke-width="0.200"
+     points="19.650,11.596 19.400,11.096 19.650,11.221 19.900,11.096 "
+     id="polygon3312" />
+  <line
+     x1="3.550"
+     y1="15.520"
+     x2="3.490"
+     y2="5.457"
+     stroke="#000000"
+     stroke-width="0.100"
+     id="line3314" />
+  <polygon
+     fill="#000000"
+     stroke="none"
+     stroke-width="0.100"
+     points="3.488,5.082 3.741,5.580 3.490,5.457 3.241,5.583 "
+     id="polygon3316" />
+  <polygon
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.100"
+     points="3.488,5.082 3.741,5.580 3.490,5.457 3.241,5.583 "
+     id="polygon3318" />
+  <ellipse
+     cx="3.550"
+     cy="17.470"
+     rx="1.950"
+     ry="1.950"
+     fill="#FFFFFF"
+     stroke="none"
+     id="ellipse3320" />
+  <ellipse
+     cx="3.550"
+     cy="17.470"
+     rx="1.950"
+     ry="1.950"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.100"
+     id="ellipse3322" />
+  <polyline
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.100"
+     points="1.600,17.470 2.900,17.470 3.550,16.170 3.550,18.770 4.200,17.470 5.500,17.470 "
+     id="polyline3324" />
+  <ellipse
+     cx="3.488"
+     cy="3.370"
+     rx="1.600"
+     ry="1.600"
+     fill="#FFFFFF"
+     stroke="none"
+     id="ellipse3326" />
+  <ellipse
+     cx="3.488"
+     cy="3.370"
+     rx="1.600"
+     ry="1.600"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.100"
+     id="ellipse3328" />
+  <path
+     stroke="none"
+     fill="#009CD4"
+     stroke-width="0.100"
+     d="M 14.562,19.098 L 14.562,15.894 L 9.953,15.894 L 9.953,19.098 L 14.562,19.098 "
+     id="path3330"
+     style="fill:#f3ebd1;fill-opacity:1" />
+  <path
+     stroke="#FFFFFF"
+     fill="none"
+     stroke-width="0.040"
+     d="M 14.562,19.098 L 14.562,15.894 L 9.953,15.894 L 9.953,19.098 L 14.562,19.098 "
+     id="path3332" />
+  <path
+     stroke="none"
+     fill="#009CD4"
+     stroke-width="0.040"
+     d="M 14.562,15.894 L 15.441,15.170 L 11.142,15.170 L 9.953,15.894 L 14.562,15.894 "
+     id="path3334" />
+  <path
+     stroke="#FFFFFF"
+     fill="none"
+     stroke-width="0.040"
+     d="M 14.562,15.894 L 15.441,15.170 L 11.142,15.170 L 9.953,15.894 L 14.562,15.894 "
+     id="path3336" />
+  <path
+     stroke="none"
+     fill="#009CD4"
+     stroke-width="0.040"
+     d="M 15.441,18.375 L 15.441,15.170 L 14.562,15.894 L 14.562,19.098 L 15.441,18.375 "
+     id="path3338" />
+  <path
+     stroke="#FFFFFF"
+     fill="none"
+     stroke-width="0.040"
+     d="M 15.441,18.375 L 15.441,15.170 L 14.562,15.894 L 14.562,19.098 L 15.441,18.375 "
+     id="path3340" />
+  <path
+     stroke="#FFFFFF"
+     fill="none"
+     stroke-width="0.100"
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     d="M 10.252,17.805 L 11.629,17.805 L 12.317,16.429 L 13.273,18.379 L 13.617,17.805 L 14.305,17.805 "
+     id="path3342" />
+  <path
+     stroke="none"
+     fill="#FFFFFF"
+     stroke-width="0.020"
+     d="M 10.687,18.939 C 10.767,18.939 10.833,18.873 10.833,18.793 C 10.833,18.712 10.767,18.647 10.687,18.647 C 10.606,18.647 10.541,18.712 10.541,18.793 C 10.541,18.873 10.606,18.939 10.687,18.939 "
+     id="path3344" />
+  <path
+     stroke="#000000"
+     fill="none"
+     stroke-width="0.020"
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     d="M 10.687,18.939 C 10.767,18.939 10.833,18.873 10.833,18.793 C 10.833,18.712 10.767,18.647 10.687,18.647 C 10.606,18.647 10.541,18.712 10.541,18.793 C 10.541,18.873 10.606,18.939 10.687,18.939 "
+     id="path3346" />
+  <path
+     stroke="none"
+     fill="#FFFFFF"
+     stroke-width="0.020"
+     d="M 10.562,18.637 L 10.847,18.916 L 11.653,18.090 L 11.368,17.812 L 10.562,18.637 "
+     id="path3348" />
+  <path
+     stroke="#000000"
+     fill="none"
+     stroke-width="0.020"
+     d="M 10.562,18.637 L 10.847,18.916 L 11.653,18.090 L 11.368,17.812 L 10.562,18.637 "
+     id="path3350" />
+  <path
+     stroke="#000000"
+     fill="none"
+     stroke-width="0.020"
+     d="M 11.254,17.204 C 11.254,17.807 11.745,18.298 12.348,18.298 C 12.951,18.298 13.442,17.807 13.442,17.204 C 13.442,16.601 12.951,16.110 12.348,16.110 C 11.745,16.110 11.254,16.601 11.254,17.204 "
+     id="path3352" />
+  <path
+     stroke="#000000"
+     fill="none"
+     stroke-width="0.020"
+     d="M 11.407,17.204 C 11.407,16.685 11.829,16.263 12.348,16.263 C 12.867,16.263 13.289,16.685 13.289,17.204 C 13.289,17.723 12.867,18.145 12.348,18.145 C 11.829,18.145 11.407,17.723 11.407,17.204 "
+     id="path3354" />
+  <path
+     stroke="none"
+     fill="#FFFFFF"
+     stroke-width="0.020"
+     d="M 11.254,17.204 C 11.254,17.807 11.745,18.298 12.348,18.298 C 12.951,18.298 13.442,17.807 13.442,17.204 C 13.442,16.601 12.951,16.110 12.348,16.110 C 11.745,16.110 11.254,16.601 11.254,17.204 L 11.407,17.204 C 11.407,16.685 11.829,16.263 12.348,16.263 C 12.867,16.263 13.289,16.685 13.289,17.204 C 13.289,17.723 12.867,18.145 12.348,18.145 C 11.829,18.145 11.407,17.723 11.407,17.204 L 11.254,17.204 "
+     id="path3356" />
+  <path
+     stroke="#000000"
+     fill="none"
+     stroke-width="0.020"
+     d="M 11.126,17.267 C 11.126,17.870 11.616,18.361 12.220,18.361 C 12.823,18.361 13.313,17.870 13.313,17.267 C 13.313,16.664 12.823,16.173 12.220,16.173 C 11.616,16.173 11.126,16.664 11.126,17.267 "
+     id="path3358" />
+  <path
+     stroke="#000000"
+     fill="none"
+     stroke-width="0.020"
+     d="M 11.279,17.267 C 11.279,16.748 11.701,16.326 12.220,16.326 C 12.738,16.326 13.160,16.748 13.160,17.267 C 13.160,17.786 12.738,18.208 12.220,18.208 C 11.701,18.208 11.279,17.786 11.279,17.267 L 11.126,17.267 L 11.279,17.267 "
+     id="path3360" />
+  <path
+     stroke="none"
+     fill="#FFFFFF"
+     stroke-width="0.020"
+     d="M 11.126,17.267 C 11.126,17.870 11.616,18.361 12.220,18.361 C 12.823,18.361 13.313,17.870 13.313,17.267 C 13.313,16.664 12.823,16.173 12.220,16.173 C 11.616,16.173 11.126,16.664 11.126,17.267 L 11.279,17.267 C 11.279,16.748 11.701,16.326 12.220,16.326 C 12.738,16.326 13.160,16.748 13.160,17.267 C 13.160,17.786 12.738,18.208 12.220,18.208 C 11.701,18.208 11.279,17.786 11.279,17.267 L 11.126,17.267 "
+     id="path3362" />
+  <image
+     x="17.800"
+     y="19.770"
+     width="11.805"
+     height="5.950"
+     xlink:href="file:///home/ondrej/Documents/CkV/17KSCF/poster/poster-svoboda/oscilo.svg"
+     id="image3364" />
+  <line
+     x1="5.351"
+     y1="17.477"
+     x2="9.466"
+     y2="17.494"
+     stroke="#000000"
+     stroke-width="0.100"
+     id="line3366" />
+  <polygon
+     fill="#000000"
+     stroke="none"
+     stroke-width="0.100"
+     points="9.841,17.496 9.340,17.744 9.466,17.494 9.342,17.244 "
+     id="polygon3368" />
+  <polygon
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.100"
+     points="9.841,17.496 9.340,17.744 9.466,17.494 9.342,17.244 "
+     id="polygon3370" />
+  <line
+     x1="23.800"
+     y1="16.812"
+     x2="15.928"
+     y2="16.775"
+     stroke="#000000"
+     stroke-width="0.100"
+     id="line3372" />
+  <polygon
+     fill="#000000"
+     stroke="none"
+     stroke-width="0.100"
+     points="15.553,16.773 16.054,16.525 15.928,16.775 16.052,17.025 "
+     id="polygon3374" />
+  <polygon
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.100"
+     points="15.553,16.773 16.054,16.525 15.928,16.775 16.052,17.025 "
+     id="polygon3376" />
+  <polyline
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.100"
+     points="22.150,11.820 33.400,11.820 33.400,16.812 27.152,16.812 "
+     id="polyline3378" />
+  <polygon
+     fill="#000000"
+     stroke="none"
+     stroke-width="0.100"
+     points="26.777,16.812 27.277,16.562 27.152,16.812 27.277,17.062 "
+     id="polygon3380" />
+  <polygon
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.100"
+     points="26.777,16.812 27.277,16.562 27.152,16.812 27.277,17.062 "
+     id="polygon3382" />
+  <line
+     x1="23.800"
+     y1="16.812"
+     x2="23.761"
+     y2="19.184"
+     stroke="#000000"
+     stroke-width="0.100"
+     id="line3384" />
+  <polygon
+     fill="#000000"
+     stroke="none"
+     stroke-width="0.100"
+     points="23.755,19.559 23.513,19.055 23.761,19.184 24.013,19.063 "
+     id="polygon3386" />
+  <polygon
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.100"
+     points="23.755,19.559 23.513,19.055 23.761,19.184 24.013,19.063 "
+     id="polygon3388" />
+  <path
+     stroke="none"
+     fill="#B7B79D"
+     stroke-width="0.001"
+     d="M 9.695,24.197 L 14.431,24.197 L 14.431,25.072 L 9.695,25.072 L 9.695,24.197 "
+     id="path3390" />
+  <path
+     stroke="#494936"
+     fill="none"
+     stroke-width="0.001"
+     d="M 9.695,24.197 L 14.431,24.197 L 14.431,25.072 L 9.695,25.072 L 9.695,24.197 "
+     id="path3392" />
+  <path
+     stroke="none"
+     fill="#C9C9B6"
+     stroke-width="0.001"
+     d="M 9.695,24.197 L 10.197,23.721 L 14.933,23.721 L 14.431,24.197 L 9.695,24.197 "
+     id="path3394" />
+  <path
+     stroke="#494936"
+     fill="none"
+     stroke-width="0.001"
+     d="M 9.695,24.197 L 10.197,23.721 L 14.933,23.721 L 14.431,24.197 L 9.695,24.197 "
+     id="path3396" />
+  <path
+     stroke="#000000"
+     fill="none"
+     stroke-width="0.106"
+     d="M 14.166,24.596 L 13.029,24.596 "
+     id="path3398" />
+  <path
+     stroke="none"
+     fill="#7A7A5A"
+     stroke-width="0.001"
+     d="M 14.431,25.072 L 14.933,24.569 L 14.933,23.721 L 14.431,24.197 L 14.431,25.072 "
+     id="path3400" />
+  <path
+     stroke="#494936"
+     fill="none"
+     stroke-width="0.001"
+     d="M 14.431,25.072 L 14.933,24.569 L 14.933,23.721 L 14.431,24.197 L 14.431,25.072 "
+     id="path3402" />
+  <path
+     stroke="none"
+     fill="#C9C9B6"
+     stroke-width="0.001"
+     d="M 9.722,25.627 L 10.250,24.966 L 13.902,24.966 L 13.373,25.627 L 9.722,25.627 "
+     id="path3404" />
+  <path
+     stroke="#494936"
+     fill="none"
+     stroke-width="0.001"
+     d="M 9.722,25.627 L 10.250,24.966 L 13.902,24.966 L 13.373,25.627 L 9.722,25.627 "
+     id="path3406" />
+  <path
+     stroke="none"
+     fill="#7A7A5A"
+     stroke-width="0.001"
+     d="M 13.373,25.760 L 13.902,25.204 L 13.902,24.966 L 13.373,25.627 L 13.373,25.760 "
+     id="path3408" />
+  <path
+     stroke="#494936"
+     fill="none"
+     stroke-width="0.001"
+     d="M 13.373,25.760 L 13.902,25.204 L 13.902,24.966 L 13.373,25.627 L 13.373,25.760 "
+     id="path3410" />
+  <path
+     stroke="none"
+     fill="#B7B79D"
+     stroke-width="0.001"
+     d="M 9.722,25.627 L 13.373,25.627 L 13.373,25.760 L 9.722,25.760 L 9.722,25.627 "
+     id="path3412" />
+  <path
+     stroke="#494936"
+     fill="none"
+     stroke-width="0.001"
+     d="M 9.722,25.627 L 13.373,25.627 L 13.373,25.760 L 9.722,25.760 L 9.722,25.627 "
+     id="path3414" />
+  <path
+     stroke="none"
+     fill="#000000"
+     stroke-width="0.001"
+     d="M 10.409,24.092 L 10.807,23.721 L 14.166,23.721 L 13.796,24.092 L 10.409,24.092 "
+     id="path3416" />
+  <path
+     stroke="#000000"
+     fill="none"
+     stroke-width="0.001"
+     d="M 10.409,24.092 L 10.807,23.721 L 14.166,23.721 L 13.796,24.092 L 10.409,24.092 "
+     id="path3418" />
+  <path
+     stroke="none"
+     fill="#C9C9B6"
+     stroke-width="0.001"
+     d="M 10.382,21.364 L 10.754,21.020 L 14.114,21.020 L 13.743,21.364 L 10.382,21.364 "
+     id="path3420" />
+  <path
+     stroke="#494936"
+     fill="none"
+     stroke-width="0.001"
+     d="M 10.382,21.364 L 10.754,21.020 L 14.114,21.020 L 13.743,21.364 L 10.382,21.364 "
+     id="path3422" />
+  <path
+     stroke="none"
+     fill="#B7B79D"
+     stroke-width="0.001"
+     d="M 10.382,21.364 L 13.770,21.364 L 13.770,24.038 L 10.382,24.038 L 10.382,21.364 "
+     id="path3424" />
+  <path
+     stroke="#494936"
+     fill="none"
+     stroke-width="0.001"
+     d="M 10.382,21.364 L 13.768,21.364 L 13.768,24.037 L 10.382,24.037 L 10.382,21.364 "
+     id="path3426" />
+  <path
+     stroke="none"
+     fill="#FFFFFF"
+     stroke-width="0.001"
+     d="M 10.673,21.707 L 13.478,21.707 L 13.478,23.773 L 10.673,23.773 L 10.673,21.707 "
+     id="path3428" />
+  <path
+     stroke="#494936"
+     fill="none"
+     stroke-width="0.001"
+     d="M 10.673,21.707 L 13.478,21.707 L 13.478,23.773 L 10.673,23.773 L 10.673,21.707 "
+     id="path3430" />
+  <path
+     stroke="none"
+     fill="#7A7A5A"
+     stroke-width="0.001"
+     d="M 13.743,24.013 L 14.114,23.642 L 14.114,21.020 L 13.743,21.364 L 13.743,24.013 "
+     id="path3432" />
+  <path
+     stroke="#494936"
+     fill="none"
+     stroke-width="0.001"
+     d="M 13.743,24.013 L 14.114,23.642 L 14.114,21.020 L 13.743,21.364 L 13.743,24.013 "
+     id="path3434" />
+  <line
+     x1="12.258"
+     y1="19.098"
+     x2="12.294"
+     y2="20.534"
+     stroke="#000000"
+     stroke-width="0.100"
+     id="line3436" />
+  <polygon
+     fill="#000000"
+     stroke="none"
+     stroke-width="0.100"
+     points="12.303,20.909 12.041,20.416 12.294,20.534 12.540,20.403 "
+     id="polygon3438" />
+  <polygon
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.100"
+     points="12.303,20.909 12.041,20.416 12.294,20.534 12.540,20.403 "
+     id="polygon3440" />
+  <line
+     x1="17.600"
+     y1="23.820"
+     x2="15.420"
+     y2="23.817"
+     stroke="#000000"
+     stroke-width="0.100"
+     id="line3442" />
+  <polygon
+     fill="#000000"
+     stroke="none"
+     stroke-width="0.100"
+     points="15.045,23.817 15.545,23.567 15.420,23.817 15.544,24.067 "
+     id="polygon3444" />
+  <polygon
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.100"
+     points="15.045,23.817 15.545,23.567 15.420,23.817 15.544,24.067 "
+     id="polygon3446" />
+  <text
+     x="29.375"
+     y="1.045"
+     fill="#F03986"
+     text-anchor="start"
+     font-size="0.99"
+     font-family="sans"
+     font-style="normal"
+     font-weight="400"
+     id="text3448">
+PLASMA</text>
+  <text
+     x="19.455"
+     y="13.280"
+     fill="#ADD8E6"
+     text-anchor="start"
+     font-size="0.99"
+     font-family="sans"
+     font-style="normal"
+     font-weight="400"
+     id="text3450"
+     style="fill:#0084ff;fill-opacity:1">
+mixer diode</text>
+  <text
+     x="1.055"
+     y="1.230"
+     fill="#000000"
+     text-anchor="start"
+     font-size="0.99"
+     font-family="sans"
+     font-style="normal"
+     font-weight="400"
+     id="text3452">
+MW generator</text>
+  <text
+     x="0.655"
+     y="20.580"
+     fill="#000000"
+     text-anchor="start"
+     font-size="0.99"
+     font-family="sans"
+     font-style="normal"
+     font-weight="400"
+     id="text3454">
+saw-tooth voltage</text>
+  <text
+     x="1.9728653"
+     y="21.568001"
+     font-size="0.99"
+     font-style="normal"
+     font-weight="400"
+     id="text3456"
+     style="font-size:0.99000001px;font-style:normal;font-weight:400;text-anchor:start;fill:#000000;font-family:sans">generator</text>
+  <text
+     x="20.069593"
+     y="15.023226"
+     font-size="0.99"
+     font-style="normal"
+     font-weight="400"
+     id="text3458"
+     style="font-size:0.99000001px;font-style:normal;font-weight:400;text-anchor:start;fill:#000000;font-family:sans">selective f. band amplifier</text>
+  <text
+     x="33.088001"
+     y="20.593275"
+     font-size="0.99"
+     font-style="normal"
+     font-weight="400"
+     id="text3460"
+     transform="scale(0.92222456,1.0843346)"
+     style="font-size:0.91300231px;font-style:normal;font-weight:400;text-anchor:start;fill:#000000;font-family:sans">Tektronix DPO 3014</text>
+  <text
+     x="31.651091"
+     y="23.318001"
+     font-size="0.99"
+     font-style="normal"
+     font-weight="400"
+     id="text3462"
+     style="font-size:0.99000001px;font-style:normal;font-weight:400;text-anchor:start;fill:#000000;font-family:sans">oscilloscope</text>
+  <text
+     x="12.270"
+     y="2.955"
+     fill="#000000"
+     text-anchor="start"
+     font-size="0.99"
+     font-family="sans"
+     font-style="normal"
+     font-weight="400"
+     id="text3464">
+splitter</text>
+  <text
+     x="8.6934652"
+     y="13.920887"
+     font-size="0.99"
+     font-style="normal"
+     font-weight="400"
+     id="text3466"
+     style="font-size:0.99000001px;font-style:normal;font-weight:400;text-anchor:start;fill:#000000;font-family:sans">analogue analysis</text>
+  <text
+     x="10.965647"
+     y="14.818"
+     font-size="0.99"
+     font-style="normal"
+     font-weight="400"
+     id="text3468"
+     style="font-size:0.99000001px;font-style:normal;font-weight:400;text-anchor:start;fill:#000000;font-family:sans">circuit</text>
+  <text
+     x="23.580"
+     y="8.705"
+     fill="#000000"
+     text-anchor="start"
+     font-size="0.99"
+     font-family="sans"
+     font-style="normal"
+     font-weight="400"
+     id="text3470">
+sin(ѡt+φ)</text>
+  <text
+     x="19.155"
+     y="2.930"
+     fill="#000000"
+     text-anchor="start"
+     font-size="0.99"
+     font-family="sans"
+     font-style="normal"
+     font-weight="400"
+     id="text3472">
+sin(ѡt)</text>
+  <text
+     x="15.155"
+     y="11.180"
+     fill="#000000"
+     text-anchor="start"
+     font-size="0.99"
+     font-family="sans"
+     font-style="normal"
+     font-weight="400"
+     id="text3474">
+sin(ѡt)</text>
+</svg>
