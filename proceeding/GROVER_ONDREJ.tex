@@ -1,7 +1,7 @@
 \documentclass[twoside]{articlek}
 \newcommand{\mins}{&\!\!\!\!}
 \renewcommand{\refname}{REFERENCES}
-\textwidth=17.3truecm \hoffset=0.55truecm \textheight=26.4truecm
+\textwidth=17.3truecm \hoffset=0.55truecm \textheight=24.4truecm
 \topmargin=-2.2truecm \columnsep=0.7truecm \oddsidemargin =
 -.4truecm \evensidemargin = -1.7truecm \pagenumbering{arabic}
 \pagestyle{headings} \setcounter{page}{0}
@@ -79,9 +79,9 @@ Therefore, frequency modulation is used to scale down the time resolution of the
 
 This design results in beats when the two waves interfere, provided the frequency of the generated MWs is progressively scaled, because the waves will have different frequencies due to the difference in distances. 
 
-Ideally, $f$ would be continuously linearly scaled up with a rate of change $\frac{df}{dt} which would result in a constant difference $f_{diff}$ between the frequencies of the waves 
+Ideally, $f$ would be continuously linearly scaled up with a rate of change $\frac{df}{dt}$ which would result in a constant difference $f_{diff}$ between the frequencies of the waves 
 \begin{equation}
-f_{diff}=\frac{\DeltaL}{c} \frac{df}{dt}
+f_{diff}=\frac{\Delta L}{c} \frac{df}{dt}
 \label{eq:fdiff}
 \end{equation}
  Therefore, $f_{diff}$ would be also the frequency of the absolute value of the amplitude of the beats.
@@ -94,9 +94,9 @@ From (\ref{eq:fdiff}) it can be derived that while
 \label{eq:Df}
 \end{equation}
 
-it is true that $f_{mod}=f_{diff}$ and thus the frequency of the resulting beats can be controlled by applying a saw-tooth voltage signal withthe right parameters to the generator. 
+it is true that $f_{mod}=f_{diff}$ and thus the frequency of the resulting beats can be controlled by applying a saw-tooth voltage signal with the right parameters to the generator. 
 
-The beat interference is then processed by a selective frequency band amplifier which amplifies signals with frequencies $500 \pm 20$ kHz. Therefore, the parameters of the saw-tooth voltage signal are $f_{mod}=500$ kHz and $\Delta L$ is set for (\ref{eq:fdiff}) to be true.
+The beat interference is then processed by a selective frequency band amplifier which amplifies signals with frequencies $500 \pm 20$ kHz. Therefore, the parameters of the saw-tooth voltage signal are $f_{mod}=500$ kHz and $\Delta L$ is set for (\ref{eq:Df}) to be true.
 
 
 
