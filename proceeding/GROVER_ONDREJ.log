@@ -1,14 +1,23 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.8.24)  24 AUG 2011 17:26
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010/Arch Linux) (format=pdflatex 2011.5.4)  25 AUG 2011 16:31
 entering extended mode
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **GROVER_ONDREJ.tex
 (./GROVER_ONDREJ.tex
 LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, loaded.
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, farsi, finnish, french,
+ galician, german, ngerman, swissgerman, monogreek, greek, hungarian, icelandic
+, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, oriya, panja
+bi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji, lao, lati
+n, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, polish, portu
+guese, romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedis
+h, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded.
 (./articlek.cls
 Document Class: articlek 2001/04/21 v1.4e Standard LaTeX document class
-(/usr/share/texmf-texlive/tex/latex/base/size10.clo
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -26,114 +35,196 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \sectionName=\skip43
 \sectionNameP=\skip44
 
-(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/etc/texmf/tex/latex/config/graphics.cfg
-File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+(/usr/share/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+(/usr/share/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/01/28 v0.05d Graphics/color for pdfTeX
 \Gread@gobject=\count87
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(./GROVER_ONDREJ.aux)
+(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+(/usr/share/texmf-dist/tex/latex/ucs/utf8x.def
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+))
+(/usr/share/texmf-dist/tex/latex/ucs/ucs.sty
+Package: ucs 2004/10/17 UCS: Unicode input support
+
+(/usr/share/texmf-dist/tex/latex/ucs/data/uni-global.def
+File: uni-global.def 2004/10/17 UCS: Unicode global data
+)
+\uc@secondtry=\count88
+\uc@combtoks=\toks17
+\uc@combtoksb=\toks18
+\uc@temptokena=\toks19
+) (./GROVER_ONDREJ.aux)
 \openout1 = `GROVER_ONDREJ.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
- (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+ (/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count88
+\scratchcounter=\count89
 \scratchdimen=\dimen105
 \scratchbox=\box26
-\nofMPsegments=\count89
-\nofMParguments=\count90
-\everyMPshowfont=\toks15
-\MPscratchCnt=\count91
+\nofMPsegments=\count90
+\nofMParguments=\count91
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count92
 \MPscratchDim=\dimen106
-\MPnumerator=\count92
-\everyMPtoPDFconversion=\toks16
+\MPnumerator=\count93
+\everyMPtoPDFconversion=\toks21
+) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/04/16 v0.15 Utilities of pdfTeX for LuaTeX (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
 )
-Underfull \hbox (badness 3407) in paragraph at lines 39--39
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
+))
+(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+(/usr/share/texmf-dist/tex/latex/ucs/ucsencs.def
+File: ucsencs.def 2003/11/29 Fixes to fontencodings LGR, T3
+)
+Underfull \hbox (badness 3407) in paragraph at lines 40--40
 []\OT1/cmr/bx/n/12 INTERFEROMETRIC PLASMA DEN-SITY MEA-SURE-MENT IN GOLEM
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 
  []
 
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no › in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no › in font cmr9!
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+(/usr/share/texmf-dist/tex/latex/ucs/data/uni-1.def
+File: uni-1.def 2004/10/17 UCS: Unicode data U+0100..U+01FF
+)
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 50.
+(Font)              <7> on input line 51.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 50.
+(Font)              <5> on input line 51.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 52.
+(Font)              <8> on input line 53.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 52.
+(Font)              <6> on input line 53.
 [0{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no › in font cmr10!
- [1
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+[]\OT1/cmr/m/n/10 However, it is not clear what the re-
+ []
 
-] (./GROVER_ONDREJ.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+\OT1/cmr/m/n/10 la-tion-ship be-tween the trig-ger-ing event
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+\OT1/cmr/m/n/10 and the change in the fre-quency is. 
+ []
+
+[1] (./GROVER_ONDREJ.aux) ) 
 Here is how much of TeX's memory you used:
- 918 strings out of 495061
- 11283 string characters out of 1182621
- 68627 words of memory out of 3000000
- 4144 multiletter control sequences out of 15000+50000
+ 2340 strings out of 493772
+ 31531 string characters out of 3150565
+ 95966 words of memory out of 3000000
+ 5624 multiletter control sequences out of 15000+200000
  7028 words of font info for 25 fonts, out of 3000000 for 9000
- 28 hyphenation exceptions out of 8191
- 25i,8n,19p,575b,145s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/
-cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.p
-fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sh
-are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/
-amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
-mr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr
-/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on GROVER_ONDREJ.pdf (2 pages, 129564 bytes).
+ 715 hyphenation exceptions out of 8191
+ 38i,8n,23p,575b,551s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pf
+b></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb>
+Output written on GROVER_ONDREJ.pdf (2 pages, 124459 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
+ 51 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
