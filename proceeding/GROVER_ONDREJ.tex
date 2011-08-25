@@ -1,7 +1,7 @@
-\documentclass[twoside]{articlek}
+\documentclass[a4paper,twoside]{articlek}
 \newcommand{\mins}{&\!\!\!\!}
 \renewcommand{\refname}{REFERENCES}
-\textwidth=17.3truecm \hoffset=0.55truecm \textheight=25truecm
+\textwidth=17.3truecm \hoffset=0.55truecm \textheight=26.4truecm
 \topmargin=-2.2truecm \columnsep=0.7truecm \oddsidemargin =
 -.4truecm \evensidemargin = -1.7truecm \pagenumbering{arabic}
 \pagestyle{headings} \setcounter{page}{0}
@@ -17,8 +17,8 @@
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
             T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 
-\usepackage{graphicx}
 \usepackage[utf8x]{inputenc}
+\usepackage{graphicx}
 % ------------------------------------------------------------------------
 \begin{document}
 \sloppy
@@ -28,7 +28,7 @@
 {\large\bf INTERFEROMETRIC PLASMA DENSITY MEASUREMENT IN GOLEM TOKAMAK}\\
 
 	{\small %A. Author, e-mail, B. Author, e-mail, address and C.
-O. Grover, ondrej.grover@gmail.com, FJFI CVUT (Cesta k Vědě)}\\ %TODO what address and other authors included ?
+O. Grover, ondrej.grover@gmail.com, FJFI ČVUT (Cesta k Vědě)}\\ %TODO what address and other authors included ?
 
 %\end{center}
 %\vspace*{1ex}
@@ -99,12 +99,18 @@ it is true that $f_{mod}=f_{diff}$ and thus the frequency of the resulting beats
 
 The beat interference is then processed by a selective frequency band amplifier which amplifies signals with frequencies $500 \pm 20$ kHz. Therefore, the parameters of the saw-tooth voltage signal are $f_{mod}=500$ kHz and $\Delta L$ is set for (\ref{eq:Df}) to be true.
 
-\section{WAVEGUIDE MODEL}
-
+\section{WAVEGUIDE SYSTEM}
+\begin{figure}[b]
+    \begin{center}
+        \includegraphics[width=.45\textwidth]{vlnovody.eps}
+    \end{center}
+    \caption{3D model of the new waveguide system}
+    \label{fig:ws}
+\end{figure}
 All the diagnostic hardware including the amplifier and the generator were designed to work with the waveguide system as it was constructed at the Czech Academy of Sciences for the CASTOR tokamak, so the band of the amplifier is fixed and $\Delta f$ can be set only within a certain range.
 
 Therefore, the new waveguide system had to have approximately the same length as the old one (about 12 m) and at the same time fit into the modest room where the GOLEM tokamak is today located. 
-This was achieved by constructing several U-turns resulting in a ``trombone-like'' design.
+This was achieved by constructing several U-turns resulting in a ``trombone-like'' design as seen in Figure \ref{fig:ws}.
 
 \section{METHODS OF SIGNAL ANALYSIS}
 
@@ -117,7 +123,7 @@ The oscilloscope digitizes the signal with a sampling f. of 25 MHz. The data is 
 \section{SIGNAL DISTURBANCES}
 \begin{figure}
     \begin{center}
-        \includegraphics[width=.5\textwidth]{data.eps}
+        \includegraphics[width=.45\textwidth]{data.eps}
     \end{center}
     \caption{Electron density during discharge \# 5725}
     \label{fig:data}

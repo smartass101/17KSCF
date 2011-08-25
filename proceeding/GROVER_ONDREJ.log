@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010/Arch Linux) (format=pdflatex 2011.5.4)  25 AUG 2011 16:31
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010/Arch Linux) (format=pdflatex 2011.5.4)  25 AUG 2011 20:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -35,12 +35,31 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \sectionName=\skip43
 \sectionNameP=\skip44
 
+(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/share/texmf-dist/tex/latex/ucs/utf8x.def
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+))
+(/usr/share/texmf-dist/tex/latex/ucs/ucs.sty
+Package: ucs 2004/10/17 UCS: Unicode input support
+
+(/usr/share/texmf-dist/tex/latex/ucs/data/uni-global.def
+File: uni-global.def 2004/10/17 UCS: Unicode global data
+)
+\uc@secondtry=\count87
+\uc@combtoks=\toks16
+\uc@combtoksb=\toks17
+\uc@temptokena=\toks18
+)
 (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks14
+\KV@toks@=\toks19
 )
 (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
@@ -55,29 +74,10 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 
 (/usr/share/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/01/28 v0.05d Graphics/color for pdfTeX
-\Gread@gobject=\count87
+\Gread@gobject=\count88
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
-)
-(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks15
-\inpenc@posthook=\toks16
-
-(/usr/share/texmf-dist/tex/latex/ucs/utf8x.def
-File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
-))
-(/usr/share/texmf-dist/tex/latex/ucs/ucs.sty
-Package: ucs 2004/10/17 UCS: Unicode input support
-
-(/usr/share/texmf-dist/tex/latex/ucs/data/uni-global.def
-File: uni-global.def 2004/10/17 UCS: Unicode global data
-)
-\uc@secondtry=\count88
-\uc@combtoks=\toks17
-\uc@combtoksb=\toks18
-\uc@temptokena=\toks19
 ) (./GROVER_ONDREJ.aux)
 \openout1 = `GROVER_ONDREJ.aux'.
 
@@ -93,7 +93,10 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
- (/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/share/texmf-dist/tex/latex/ucs/ucsencs.def
+File: ucsencs.def 2003/11/29 Fixes to fontencodings LGR, T3
+)
+(/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count89
 \scratchdimen=\dimen105
@@ -158,9 +161,6 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-(/usr/share/texmf-dist/tex/latex/ucs/ucsencs.def
-File: ucsencs.def 2003/11/29 Fixes to fontencodings LGR, T3
-)
 Underfull \hbox (badness 3407) in paragraph at lines 40--40
 []\OT1/cmr/bx/n/12 INTERFEROMETRIC PLASMA DEN-SITY MEA-SURE-MENT IN GOLEM
  []
@@ -185,46 +185,95 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 53.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 53.
-[0{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+Package epstopdf Info: Source file: <vlnovody.eps>
+(epstopdf)                    date: 2011-08-25 19:12:09
+(epstopdf)                    size: 34101 bytes
+(epstopdf)             Output file: <vlnovody-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-08-25 19:30:01
+(epstopdf)                    size: 43608 bytes
+(epstopdf)             Command: <repstopdf --outfile=vlnovody-eps-converted-to.
+pdf vlnovody.eps>
+(epstopdf)             \includegraphics on input line 105.
+Package epstopdf Info: Output file is already uptodate.
+<vlnovody-eps-converted-to.pdf, id=1, 722.7pt x 406.51875pt>
+File: vlnovody-eps-converted-to.pdf Graphic file (type pdf)
+
+<use vlnovody-eps-converted-to.pdf> [0{/var/lib/texmf/fonts/map/pdftex/updmap/p
+dftex.map}
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
-[]\OT1/cmr/m/n/10 However, it is not clear what the re-
+Package epstopdf Info: Source file: <data.eps>
+(epstopdf)                    date: 2011-08-25 17:53:19
+(epstopdf)                    size: 112822 bytes
+(epstopdf)             Output file: <data-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-08-25 17:57:25
+(epstopdf)                    size: 31798 bytes
+(epstopdf)             Command: <repstopdf --outfile=data-eps-converted-to.pdf 
+data.eps>
+(epstopdf)             \includegraphics on input line 126.
+Package epstopdf Info: Output file is already uptodate.
+ <data-eps-converted-to.pdf, id=17, 456.70625pt x 374.39874pt>
+File: data-eps-converted-to.pdf Graphic file (type pdf)
+
+<use data-eps-converted-to.pdf>
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+(/usr/share/texmf-dist/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2004/10/17 UCS: Unicode data U+0000..U+00FF
+)
+Underfull \hbox (badness 10000) in paragraph at lines 150--154
+[]\OT1/cmr/m/n/10 MAT[]EJ[]U, Michael. \OT1/cmr/m/it/10 M^^Te^^Tren^^S^^P hus-t
+oty plaz-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
-\OT1/cmr/m/n/10 la-tion-ship be-tween the trig-ger-ing event
+Underfull \hbox (badness 10000) in paragraph at lines 150--154
+\OT1/cmr/m/it/10 matu meto-dami mikrovlnn^^Se in-ter-fer-ome-tre.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
-\OT1/cmr/m/n/10 and the change in the fre-quency is. 
+Underfull \hbox (badness 2073) in paragraph at lines 150--154
+\OT1/cmr/m/n/10 FJFI, 2008. 44 s. Bakal^^Sa^^Trsk^^Sa pr^^Sace. []CVUT,
  []
 
-[1] (./GROVER_ONDREJ.aux) ) 
+
+Underfull \hbox (badness 6268) in paragraph at lines 150--154
+\OT1/cmr/m/n/10 FJFI, Kat-e-dra fyziky. Dos-tupn^^Se z WWW:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--154
+\OT1/cmtt/m/n/10 http://golem.fjfi.cvut.cz/files/students/
+ []
+
+[1 <./vlnovody-eps-converted-to.pdf> <./data-eps-converted-to.pdf>]
+(./GROVER_ONDREJ.aux) ) 
 Here is how much of TeX's memory you used:
- 2340 strings out of 493772
- 31531 string characters out of 3150565
- 95966 words of memory out of 3000000
- 5624 multiletter control sequences out of 15000+200000
- 7028 words of font info for 25 fonts, out of 3000000 for 9000
+ 2850 strings out of 493772
+ 36953 string characters out of 3150565
+ 97514 words of memory out of 3000000
+ 6126 multiletter control sequences out of 15000+200000
+ 7542 words of font info for 27 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 38i,8n,23p,575b,551s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
-/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pf
-b></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb>
-Output written on GROVER_ONDREJ.pdf (2 pages, 124459 bytes).
+ 37i,8n,23p,575b,575s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+bx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></
+usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.p
+fb>
+Output written on GROVER_ONDREJ.pdf (2 pages, 224963 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 70 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
